@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="846972dd-43fc-443d-95fd-9b69b0bca7d6" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/yingx_wangy/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/resources/com/baizhi/wy/mapper/VideoMapper.xml" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/app/AppInterfaceController.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/TestPoi.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/TestEasyPoi.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Photo.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/echarts.jsp" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/map.jsp" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/service/UserService.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/echartsJson.jsp" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/controller/EchartsController.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/YingxTest.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/resources/com/baizhi/wy/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/webapp/main/showuser.jsp" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/util/QueryGoEasyUtil.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/TestGoeasy.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/echartsGoeasy.jsp" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/mapJson.jsp" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/annotation/DelCache.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/annotation/AddCaches.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/FeedbackServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/LogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Admin.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Category.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/City.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Emp.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Feedback.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Log.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/MonthCount.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/ReturnEntity.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Teacher.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/User.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/aspect/AddCache.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/TestClass.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/pom.xml" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Video.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/resposity/VideoResposity.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/service/VideoService.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/controller/VideoController.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/webapp/main/main.jsp" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/webapp/video/searchVideo.jsp" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/YingxWangyApplicationTests.java" />
+        <option value="$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/VideoServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yingx_wangy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yingx_wangy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yingx_wangy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="425" />
+    <option name="y" value="7" />
+    <option name="width" value="1400" />
+    <option name="height" value="999" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yingxue_wangyan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yingx_wangy" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586778033860" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\yingxue_wangyan\yingx_wangy\src\main\webapp\video" />
+      <recent name="C:\Users\Administrator\Desktop\yingxue_wangyan\yingx_wangy\src\main\webapp\echarts" />
+      <recent name="C:\Users\Administrator\Desktop\yingxue_wangyan\yingx_wangy\src\main\webapp\js" />
+      <recent name="C:\Users\Administrator\Desktop\yingxue_wangyan\yingx_wangy\src\main\webapp\img" />
+      <recent name="C:\Users\Administrator\Desktop\yingxue_wangyan\yingx_wangy\src\main\java\com\baizhi\wy\filter" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.baizhi.wy.annotation" />
+      <recent name="com.baizhi.wy" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.baizhi.wy.serviceImpl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.YingxWangyApplication">
+    <configuration name="TestEasyPoi.createBucket3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yingx_wangy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.wy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi.wy" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.wy.TestEasyPoi" />
+      <option name="METHOD_NAME" value="createBucket3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YingxTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yingx_wangy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.wy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi.wy" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.wy.YingxTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YingxTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yingx_wangy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.wy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi.wy" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.wy.YingxTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YingxTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yingx_wangy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.wy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi.wy" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.wy.YingxTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YingxWangyApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yingx_wangy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baizhi.wy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baizhi.wy" />
+      <option name="MAIN_CLASS_NAME" value="com.baizhi.wy.YingxWangyApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YingxWangyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yingx_wangy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.baizhi.wy.YingxWangyApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestEasyPoi.createBucket3" />
+      <item itemvalue="JUnit.YingxTest.test4" />
+      <item itemvalue="JUnit.YingxTest.test5" />
+      <item itemvalue="JUnit.YingxTest.test6" />
+      <item itemvalue="JUnit.YingxWangyApplicationTests.test" />
+      <item itemvalue="Spring Boot.YingxWangyApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.YingxWangyApplicationTests.test" />
+        <item itemvalue="JUnit.YingxTest.test4" />
+        <item itemvalue="JUnit.YingxTest.test6" />
+        <item itemvalue="JUnit.YingxTest.test5" />
+        <item itemvalue="JUnit.TestEasyPoi.createBucket3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="846972dd-43fc-443d-95fd-9b69b0bca7d6" name="Default Changelist" comment="" />
+      <created>1585206632945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585206632945</updated>
+      <workItem from="1585206634381" duration="15545000" />
+      <workItem from="1585269121888" duration="27697000" />
+      <workItem from="1585357005149" duration="5479000" />
+      <workItem from="1585527605752" duration="17829000" />
+      <workItem from="1585618526238" duration="20073000" />
+      <workItem from="1585700442136" duration="18191000" />
+      <workItem from="1585794562677" duration="17579000" />
+      <workItem from="1585893036674" duration="17838000" />
+      <workItem from="1585964026432" duration="7082000" />
+      <workItem from="1586226184369" duration="7975000" />
+      <workItem from="1586248866256" duration="7242000" />
+      <workItem from="1586313951978" duration="13997000" />
+      <workItem from="1586392333272" duration="6120000" />
+      <workItem from="1586429178397" duration="1379000" />
+      <workItem from="1586481145091" duration="7184000" />
+      <workItem from="1586738199724" duration="3233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestEasyPoi_createBucket2 - 2020.04.07 at 19h 07m 38s.xml">
+      <configuration name="TestEasyPoi.createBucket2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestEasyPoi_createBucket3 - 2020.04.07 at 19h 08m 04s.xml">
+      <configuration name="TestEasyPoi.createBucket3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YingxTest_test4 - 2020.04.08 at 16h 29m 26s.xml">
+      <configuration name="YingxTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YingxTest_test5 - 2020.04.08 at 18h 53m 25s.xml">
+      <configuration name="YingxTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YingxTest_test5 - 2020.04.08 at 18h 55m 03s.xml">
+      <configuration name="YingxTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YingxTest_test5 - 2020.04.08 at 18h 56m 17s.xml">
+      <configuration name="YingxTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YingxTest_test6 - 2020.04.08 at 19h 03m 01s.xml">
+      <configuration name="YingxTest.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YingxTest_test6 - 2020.04.08 at 19h 04m 08s.xml">
+      <configuration name="YingxTest.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YingxTest_test4 - 2020.04.08 at 19h 34m 05s.xml">
+      <configuration name="YingxTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YingxWangyApplicationTests_test - 2020.04.10 at 19h 44m 45s.xml">
+      <configuration name="YingxWangyApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="194443000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14179105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="MyBatis Log" order="15" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.32900432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="46" column="74" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/dao/CategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="58" lean-forward="true" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/map.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/chatWindow.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="5" column="84" lean-forward="true" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/controller/EchartsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/echartsJson.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="55" selection-start-line="50" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/util/QueryGoEasyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/TestGoeasy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/YingxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/resources/com/baizhi/wy/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/echartsGoeasy.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/main/showuser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2678">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/echarts/mapJson.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="63" lean-forward="true" selection-start-line="9" selection-start-column="72" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/aspect/LogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/annotation/DelCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/annotation/AddCaches.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/FeedbackServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/LogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="109" column="13" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="47" column="69" selection-start-line="47" selection-start-column="69" selection-end-line="47" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/CategoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Emp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/MonthCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Photo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/ReturnEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/category/category.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="68" column="80" selection-start-line="68" selection-start-column="80" selection-end-line="68" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/aspect/AddCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/TestClass.java" />
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/service/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/resposity/VideoResposity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="198" column="21" selection-start-line="198" selection-start-column="21" selection-end-line="198" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/main/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="45" column="69" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/controller/VideoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="51" column="5" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/entity/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/webapp/video/searchVideo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="592">
+          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/test/java/com/baizhi/wy/YingxWangyApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="22" />
+          <folding>
+            <element signature="e#2090#2091#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yingx_wangy/src/main/java/com/baizhi/wy/serviceImpl/VideoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="331" column="21" lean-forward="true" selection-start-line="331" selection-start-column="21" selection-end-line="331" selection-end-column="21" />
+          <folding>
+            <element signature="method#showAll#0;class#VideoServiceImpl#0" />
+            <element signature="method#addVideo#0;class#VideoServiceImpl#0" />
+            <element signature="method#upload#0;class#VideoServiceImpl#0" />
+            <element signature="method#uploadAliyun#0;class#VideoServiceImpl#0" />
+            <element signature="method#delete#0;class#VideoServiceImpl#0" />
+            <element signature="method#queryByReleaseTime#0;class#VideoServiceImpl#0" />
+            <element signature="method#queryByLikeVideoName#0;class#VideoServiceImpl#0" />
+            <element signature="method#queryByVideoDetail#0;class#VideoServiceImpl#0" />
+            <element signature="method#queryCateVideoList#0;class#VideoServiceImpl#0" />
+            <element signature="method#queryByUserVideo#0;class#VideoServiceImpl#0" />
+            <element signature="method#queryByUserMoving#0;class#VideoServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baizhi.wy.dao.VideoMapper">
+    <resultMap id="videoMap" type="Video">
+        <id property="id" column="id"/>
+        <result property="brief" column="brief"/>
+        <result property="categoryId" column="category_id"/>
+        <result property="cover" column="cover"/>
+        <result property="groupId" column="group_id"/>
+        <result property="path" column="path"/>
+        <result property="publishDate" column="publish_date"/>
+        <result property="status" column="status"/>
+        <result property="title" column="title"/>
+        <result property="userId" column="user_id"/>
+        <association property="category" javaType="com.baizhi.wy.entity.Category">
+            <id property="id" column="id"/>
+            <result property="cateName" column="cate_name"/>
+            <result property="levels" column="levels"/>
+            <result property="parentId" column="parent_id"/>
+        </association>
+    </resultMap>
+
+    <select id="queryAll" resultMap="videoMap">
+        select v.id,v.brief,v.category_id,v.cover,v.group_id,v.path,v.publish_date,v.status,v.title,v.user_id,c.cate_name
+        from yx_video v left join yx_category c on v.category_id = c.id limit #{start} ,#{end}
+    </select>
+
+    <!--前台App视频首页查询-->
+    <select id="queryByReleaseTime" resultType="com.baizhi.wy.po.VideoPo">
+        select c.cate_name cateName,
+        v.id id,v.title videoTitle,v.cover cover,v.path path,v.publish_date uploadTime,v.brief description,
+        u.head_img headImg
+        from yx_category c right join yx_video v
+            on c.id=v.category_id
+            left join yx_user u
+            on v.user_id=u.id
+            order by v.publish_date desc
+    </select>
+    <!--前台app按视频名称模糊搜索-->
+    <select id="queryByLikeVideoName" resultType="com.baizhi.wy.po.LikeVideoPo">
+        select c.cate_name cateName,c.id categoryId,
+               v.id id,v.title videoTitle,v.cover cover,v.path path,v.publish_date uploadTime,v.brief description,
+               u.head_img headImg,u.id userId,u.username userName
+               from yx_category c right join yx_video v
+               on c.id=v.category_id
+               left join yx_user u
+               on v.user_id=u.id
+               where v.title like concat('%',#{content},'%')
+    </select>
+
+    <!--视频详情-->
+    <select id="queryByVideoDetail" resultType="com.baizhi.wy.po.DetailVideoPo">
+        select c.cate_name cateName,c.id categoryId,
+        v.id id,v.title videoTitle,v.cover cover,v.path path,v.publish_date uploadTime,v.brief description,
+        u.head_img userPicImg,u.id userId,u.username userName
+        from yx_category c right join yx_video v
+        on c.id=v.category_id
+        left join yx_user u
+        on v.user_id=u.id
+        where v.id=#{videoId}
+    </select>
+
+    <!--查询同一类别下的所有视频-->
+    <select id="queryByCateId" resultType="com.baizhi.wy.po.LikeVideoPo">
+        select c.cate_name cateName,c.id categoryId,
+        v.id id,v.title videoTitle,v.cover cover,v.path path,v.publish_date uploadTime,v.brief description,
+        u.head_img headImg,u.id userId,u.username userName
+        from yx_category c right join yx_video v
+        on c.id=v.category_id
+        left join yx_user u
+        on v.user_id=u.id
+        where v.category_id=#{cateId} and v.id != #{videoId}
+    </select>
+
+    <!--根据类别查询视频-->
+    <select id="queryCateVideoList" resultType="com.baizhi.wy.po.LikeVideoPo">
+        select c.cate_name cateName,c.id categoryId,
+        v.id id,v.title videoTitle,v.cover cover,v.path path,v.publish_date uploadTime,v.brief description,
+        u.head_img headImg,u.id userId,u.username userName
+        from yx_category c right join yx_video v
+        on c.id=v.category_id
+        left join yx_user u
+        on v.user_id=u.id
+        where v.category_id=#{cateId}
+    </select>
+
+    <!--根据用户id查询视频-->
+    <select id="queryByUserVideo" resultType="com.baizhi.wy.po.LikeVideoPo">
+        select c.cate_name cateName,c.id categoryId,
+        v.id id,v.title videoTitle,v.cover cover,v.path path,v.publish_date uploadTime,v.brief description,
+        u.head_img headImg,u.id userId,u.username userName
+        from yx_category c right join yx_video v
+        on c.id=v.category_id
+        left join yx_user u
+        on v.user_id=u.id
+        where v.user_id=#{userId}
+    </select>
+    <!--查询所有视频详情-->
+    <select id="queryByUserMoving" resultType="com.baizhi.wy.po.DetailVideoPo">
+        select c.cate_name cateName,c.id categoryId,
+        v.id id,v.title videoTitle,v.cover cover,v.path path,v.publish_date uploadTime,v.brief description,
+        u.head_img userPicImg,u.id userId,u.username userName
+        from yx_category c right join yx_video v
+        on c.id=v.category_id
+        left join yx_user u
+        on v.user_id=u.id
+    </select>
+</mapper>

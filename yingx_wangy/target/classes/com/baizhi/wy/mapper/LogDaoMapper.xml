@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!-- 
+	namespace: 指定当前mapper.xml管理的接口 全限定名
+	注意：一个mapper.xml只能管理一个接口
+-->
+<mapper namespace="com.baizhi.wy.dao.LogDao">
+
+    <select id="queryAll" resultType="Log">
+        select id,admin_oper adminOper,time,operation,status from yx_log limit #{start},#{end}
+    </select>
+
+    <insert id="insert" parameterType="Log">
+        insert into yx_log(id,admin_oper,time,operation,status) values(#{id},#{adminOper,jdbcType=VARCHAR},#{time,jdbcType=TIMESTAMP},#{operation,jdbcType=VARCHAR},#{status,jdbcType=VARCHAR})
+    </insert>
+    <select id="count" resultType="integer">
+        select count(id) from yx_log
+    </select>
+</mapper>
